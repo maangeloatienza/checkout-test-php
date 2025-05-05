@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+    --screen-lg: 1200px;
+    --screen-md: 992px;
+    --screen-sm: 768px;
+    --screen-xs: 576px;
+    --primary-color: #ffc600;
+}
+
+
+
+
+body {
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
