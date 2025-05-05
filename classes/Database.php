@@ -2,10 +2,10 @@
 
 class Database
 {
-    private $host = 'localhost'; 
-    private $dbName = 'test-checkout';
-    private $username = 'root'; 
-    private $password = '';    
+    private $host = 'sql207.infinityfree.com'; 
+    private $dbName = 'if0_38910027_test_checkout';
+    private $username = 'if0_38910027'; 
+    private $password = 'asinsatubig';    
     private static $instance = null; 
     private $connection; 
 
